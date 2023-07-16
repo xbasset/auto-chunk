@@ -1,0 +1,12 @@
+The following is the text representing {{section_start}}-{{section_end}} out of the {{total_tokens}} total.
+####
+{{document_section}}
+####
+
+OUTPUT FORMAT:
+{
+  "document_description": "<document description>",
+  "instructions": "<describe how you would chunk this section for the following task:{{expected_task}}>"
+}
+
+Provide a relevant smart chunking instruction using the OUTPUT FORMAT for this part. No talk, just go.
