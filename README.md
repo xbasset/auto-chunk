@@ -35,7 +35,7 @@ To use Auto-Chunk, you will need to create an instance of the llm_chunker class 
 * expected_task: The task for which the chunker is used (e.g. "summarization", "translation", "question_generation")
 * max_tokens: The maximum number of tokens allowed in a chunk
 * document_type: A description of the document type (e.g. "news", "wikipedia", "scientific_paper", "rfc_specification")
-openai_api_key: Your OpenAI API key
+* openai_api_key: Your OpenAI API key
 
 Once you have created an instance of the llm_chunker class, you can load a document using the load_document method:
 
